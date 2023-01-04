@@ -2,6 +2,12 @@
     margin: 0;
 }
 
+hr {
+    width: 50px;
+    margin: 0 auto;
+    color: rgb(190, 190, 190);
+}
+
 nav {
     color:red;
 }
@@ -21,31 +27,38 @@ nav {
 #expertise-section{
     background-color: white;
     padding: 4%;
-    border: fuchsia solid 3px;
     text-align: center;
+    line-height: 1.5em;
+}
+
+#expertise-section hr {
+    margin-bottom: 7%;
+}
+
+#grid-header h3 {
+    margin: 1%;
+    padding-bottom: 1%;
 }
 
 #expertise-grid {
     background-color: rgb(161, 161, 161);
-    border: lawngreen solid 3px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 1px;
     grid-row-gap: 1px;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 4% auto;
     font-family: sans-serif;
 }
 
 #expertise-grid div{
     background-color: white;
+    padding: 8%;
 }
 
-hr {
-    width: 50px;
-    margin: 0 auto;
-    color: rgb(190, 190, 190);
+#expertise-grid h4 {
+    margin: 2em auto;
 }
 
 #team-section{
