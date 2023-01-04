@@ -39,7 +39,7 @@ nav ul a{
     
 }
 header{
-    
+
     background-image: url('./images/bgk-header.png');
     height:50em;
     background-repeat: no-repeat;
@@ -130,7 +130,51 @@ p{
 }
 
 #team-section{
-    color: yellowgreen;
+    color: white;
+    background-image: url('./images/bgk-middle.png');
+    padding: 4%;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+#team-section h3, #expertise-section h3 {
+    font-weight: normal;
+}
+
+#team-images {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: 4em auto;
+}
+
+#team-img {
+    border: 1px solid white;
+    max-width: 220px;
+}
+
+#team-img img {
+    width: 100%
+}
+
+#team-section h4 {
+    padding-top: 1em;
+}
+
+#team-section p {
+    padding-bottom: 1.5em;
+}
+
+.team-button button {
+    background: transparent;
+    border: 0.5px solid aqua;
+    border-radius: 5%;
+    color: aqua;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding: 0.75em;
+    margin: 2em auto;
 }
 
 #contact_client-section{
