@@ -277,7 +277,6 @@ h1{
 footer{
     display: flex;
     width: 100%;
-    position: absolute;
     bottom: 0;
     color: #fff;
     padding: 100px 0 30px; 
